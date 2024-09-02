@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
+    font-family: "Hanken Grotesk", sans-serif;
     display: flex;
     justify-content: center;
     position: relative;
+    align-items: center;
     /* align-content: center; */
     /* justify-items: center; */
-    font-family: "Hanken Grotesk", sans-serif;
+    margin-top: 100px;
 }
 
 .container {
@@ -26,7 +28,7 @@ body {
 
 .parte-esquerda {
     grid-area: parte-esquerda;
-    background-color:  hsl(234, 85%, 45%) ;
+    background-image:  linear-gradient(hsl(252, 100%, 67%), hsl(234, 85%, 45%)) ;
     border-radius: 15px;
     justify-content: center;
     padding: 10px;
@@ -35,11 +37,19 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 30px;
+    padding: 40px;
     margin: 0 10px;
     gap: 30px;
     width: 310px;
-    
+}
+
+.centro-X-100 {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 80px;
+    height: 160px;
+    width: 160px;
+    margin: auto;
+    align-content: center;
 }
 
 .parte-direita {
@@ -126,7 +136,7 @@ body {
 }
 
 .botao:hover{
-    background-color: hsl(234, 85%, 45%);
+    background-image:  linear-gradient(hsl(252, 100%, 67%), hsl(234, 85%, 45%)) ;
 }
 
 .div-avaliacao h2{

@@ -1,5 +1,13 @@
 @media(max-width: 630px) {
+    *{ 
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
     .container {
+        padding: 0;
+        margin: 0;
         display: grid;
         grid-template-areas: "parte-esquerda" 
                              "parte-direita";
@@ -8,4 +16,17 @@
         align-items: center;
         justify-content: center;
     }
+
+    .parte-esquerda {
+        width: 375px;
+        margin: 0px 0px;
+        align-items: auto;
+        justify-content: center;
+    }
+
+    .parte-direita {
+        justify-content: space-between;
+        width: 355px;
+    }
 }
+
