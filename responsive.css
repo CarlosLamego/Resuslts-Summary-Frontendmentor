@@ -1,0 +1,11 @@
+@media(max-width: 630px) {
+    .container {
+        display: grid;
+        grid-template-areas: "parte-esquerda" 
+                             "parte-direita";
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
